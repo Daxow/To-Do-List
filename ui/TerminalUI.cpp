@@ -105,9 +105,9 @@ void TerminalUI::showHelp() {
                   << desc << "\n";
     };
 
-    line("Fleches haut / bas",   "Naviguer dans la liste");
-    line("Fleche gauche",        "Changer le filtre Statut");
-    line("Fleche droite",        "Changer le filtre Priorité");
+    line("Flèches haut / bas",   "Naviguer dans la liste");
+    line("Flèche gauche",        "Changer le filtre Statut");
+    line("Flèche droite",        "Changer le filtre Priorité");
     line("c",                    "Créer une nouvelle tâche");
     line("d",                    "Supprimer la tache selectionnee");
     line("e",                    "Modifier le statut (cycle : À faire > En cours > Terminé)");
