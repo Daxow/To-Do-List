@@ -48,7 +48,7 @@ void TerminalUI::render(const TaskManager& tm, int selectedIndex,
     std::cout << DIM
               << "[" << BOLD << "^v" << RESET << DIM << "] Nav  "
               << "[" << BOLD << "<>" << RESET << DIM << "] Filtre  "
-              << "[" << BOLD << "c" << RESET << DIM << "] Creer  "
+              << "[" << BOLD << "c" << RESET << DIM << "] Créer  "
               << "[" << BOLD << "d" << RESET << DIM << "] Suppr  "
               << "[" << BOLD << "e" << RESET << DIM << "] Statut  "
               << "[" << BOLD << "h" << RESET << DIM << "] Aide  "
@@ -56,7 +56,7 @@ void TerminalUI::render(const TaskManager& tm, int selectedIndex,
               << RESET << "\n";
 
     if (filteredIndices.empty()) {
-        std::cout << DIM << "  (Aucune tache trouvee)\n" << RESET;
+        std::cout << DIM << "  (Aucune tâche trouvée)\n" << RESET;
     } else {
         for (int i = 0; i < static_cast<int>(filteredIndices.size()); ++i) {
             const Task& task = tm.getTasks()[filteredIndices[i]];
@@ -87,7 +87,7 @@ void TerminalUI::render(const TaskManager& tm, int selectedIndex,
     std::cout << "\n";
 
     std::cout << BLUE
-              << "Filtre : Priorite = " << filterPriorityLabel(fp)
+              << "Filtre : Priorité = " << filterPriorityLabel(fp)
               << " | Statut = " << filterStatusLabel(fs)
               << RESET << "\n";
 
@@ -107,10 +107,10 @@ void TerminalUI::showHelp() {
 
     line("Fleches haut / bas",   "Naviguer dans la liste");
     line("Fleche gauche",        "Changer le filtre Statut");
-    line("Fleche droite",        "Changer le filtre Priorite");
-    line("c",                    "Creer une nouvelle tache");
+    line("Fleche droite",        "Changer le filtre Priorité");
+    line("c",                    "Créer une nouvelle tâche");
     line("d",                    "Supprimer la tache selectionnee");
-    line("e",                    "Modifier le statut (cycle : A faire > En cours > Terminé)");
+    line("e",                    "Modifier le statut (cycle : À faire > En cours > Terminé)");
     line("h",                    "Afficher cette aide");
     line("q",                    "Quitter le programme");
 
