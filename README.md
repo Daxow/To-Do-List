@@ -68,7 +68,3 @@ Les contributions, idées et améliorations sont les bienvenues via les issues e
 ## Dépôt
 
 Dépôt du projet : [github.com/Daxow/To-Do-List](https://github.com/Daxow/To-Do-List)
-
-## Licence
-
-Ajoutez ici la licence du projet si elle est disponible dans le dépôt.
