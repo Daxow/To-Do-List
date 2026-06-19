@@ -110,7 +110,7 @@ void TerminalUI::showHelp() {
     line("Fleche droite",        "Changer le filtre Priorite");
     line("c",                    "Creer une nouvelle tache");
     line("d",                    "Supprimer la tache selectionnee");
-    line("e",                    "Modifier le statut (cycle : A faire > En cours > Termine)");
+    line("e",                    "Modifier le statut (cycle : A faire > En cours > Terminé)");
     line("h",                    "Afficher cette aide");
     line("q",                    "Quitter le programme");
 
@@ -169,7 +169,7 @@ std::string TerminalUI::statusLabel(Status s) const {
     switch (s) {
         case Status::Todo:       return "A faire";
         case Status::InProgress: return "En cours";
-        case Status::Done:       return "Termine";
+        case Status::Done:       return "Terminé";
     }
     return "";
 }
@@ -198,7 +198,7 @@ std::string TerminalUI::filterStatusLabel(FilterStatus fs) const {
         case FilterStatus::All:        return "Tous";
         case FilterStatus::Todo:       return "A faire";
         case FilterStatus::InProgress: return "En cours";
-        case FilterStatus::Done:       return "Termine";
+        case FilterStatus::Done:       return "Terminé";
     }
     return "";
 }
