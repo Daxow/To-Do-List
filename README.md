@@ -64,7 +64,3 @@ Les contributions, idées et améliorations sont les bienvenues via les issues e
 - [Daxow](https://github.com/Daxow) — README et idées autour du design du terminal.
 - [clement444](https://github.com/clement444) — développement du système d’enregistrement des tâches.
 - [thomas-yv](https://github.com/thomas-yv) — orchestrateur du code, maintainer et system designer.
-
-## Dépôt
-
-Dépôt du projet : [github.com/Daxow/To-Do-List](https://github.com/Daxow/To-Do-List)
