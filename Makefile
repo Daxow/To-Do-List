@@ -1,4 +1,4 @@
-NAME = todo
+NAME = td-cli
 
 CXX      = g++
 CXXFLAGS = -Wall -Wextra -std=c++17
